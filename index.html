@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MTG</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/> <!--IMPORTANTE TER ESSE LINK PARA PEGAR OS ICONS DO GOOGLE--> 
+    <link rel="stylesheet" href="estilos/style.css"> 
+</head>
+<body>
+    <header>
+        <h1>As Aventuras dos irmãos MTG</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i> <!--ESSE TAMBÉM, DA PARA TROCAR O (MENU) POR OUTRO EMOTICON, SÓ ESCREVER (menu,face,favorite)-->
+    <menu id="itens">
+        <ul>
+            <li><a href="m.html">M</a></li>
+            <li><a href="t.html">T</a></li>
+            <li><a href="mtg.html">G</a></li>
+
+        </ul>
+
+    </menu>
+</header>
+
+<main>
+    <article>
+        <h2>Quem são os MTG?</h2>
+        <p> Era uma vez, numa pequena cidade do Rio de Janeiro, cercada por montanhas majestosas, viviam os irmãos Gabriel e Matheus. Unidos desde o berço por um laço inquebrável, eles compartilhavam uma paixão em comum: a busca por aventuras emocionantes e momentos incríveis que fariam seus corações baterem mais rápido. Juntos, eles formavam uma dupla conhecida por suas iniciais: MTG.</p>
+        <p>Gabriel, o irmão mais novo, possuía um espírito livre e corajoso e se dizia rústico. Seus olhos brilhavam de empolgação diante de qualquer desafio. Matheus, por outro lado, era o elo sensível da dupla. Com um coração gentil e uma imaginação vibrante, ele sempre encontrava a beleza nas pequenas coisas, onde ele captura com suas lindas fotos.</p>
+        <p>Aventura era a palavra-chave para os irmãos MTG. Não havia montanha alta demais, praias agitadas ou ruas com muitos carros enquanto os dois se equilibravam na moto, nada era suficiente para desencorajá-los. Eles se tornaram verdadeiros exploradores de terras desconhecidas, encarando cada novo caminho como uma oportunidade de aprender e crescer juntos.</p>
+        <p>Por mais desafiadoras que fossem suas jornadas, Gabriel e Matheus nunca perdiam o entusiasmo. Seus risos ecoavam nas montanhas e ruas da Rosas dos Ventos e suas vozes se misturavam ao som da natureza. A alegria e a animação que irradiavam contagiam todos que os encontravam.</p>
+    </article>
+</main>
+    <script>
+        function clickMenu() {
+            /*itens.style.display = 'block' APARECE MAIS NÃO FECHA*/ 
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none' 
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>

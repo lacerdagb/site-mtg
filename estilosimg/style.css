@@ -1,0 +1,25 @@
+@charset "utf-8";
+* {
+    padding: 0px;
+    margin: 0px;
+}
+html {
+    height: 100vh
+}
+main {
+    background-color: rgb(255, 255, 255);
+    width: 300px; 
+    margin: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+img {
+    display: block;
+    margin: auto;
+}
+ h1 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
